@@ -1,9 +1,7 @@
-# openblock-resource
+# haniblock-resource
 
-[![Publish npm package](https://github.com/openblockcc/openblock-resource/actions/workflows/publish.yml/badge.svg)](https://github.com/openblockcc/openblock-resource/actions/workflows/publish.yml)
-![GitHub](https://img.shields.io/github/license/openblockcc/openblock-resource)
 
-Provide a local resource server for openblock.
+Provide a local resource server for haniblock.
 
 ## Instructions
 
