@@ -105,10 +105,10 @@ class OpenblockResourceServer extends Emitter{
             })
             .catch(e => {
                 console.log(clc.yellow(`WARN: Check resources failed, try to initialize resources: ${e}`));
-                if (fs.existsSync(this._userDataPath)){
-                    return fs.rm(this._userDataPath, {recursive: true, force: true})
-                        .then(() => copyResources());
-                }
+                // if (fs.existsSync(this._userDataPath)){
+                //     return fs.rm(this._userDataPath, {recursive: true, force: true})
+                //         .then(() => copyResources());
+                // }
                 return copyResources();
             });
     }
